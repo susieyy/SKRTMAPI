@@ -1,0 +1,19 @@
+PODS:
+  - SKCore (4.0.4)
+  - SKWebAPI (4.0.7):
+    - SKCore
+  - Starscream (3.0.2)
+
+DEPENDENCIES:
+  - SKCore
+  - SKWebAPI
+  - Starscream (~> 3.0.2)
+
+SPEC CHECKSUMS:
+  SKCore: 47f7643fc82ed78fc1954350347dcb2811990812
+  SKWebAPI: a8538700c992fd11be1914a0859ac572b3aea756
+  Starscream: b512c62f6706421221b5ceb2ba01a9f58aca5bea
+
+PODFILE CHECKSUM: 7672aff68e22095e17eaf43cd91f839ec617387f
+
+COCOAPODS: 1.2.0

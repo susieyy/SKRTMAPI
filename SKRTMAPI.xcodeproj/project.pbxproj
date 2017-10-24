@@ -25,9 +25,16 @@
 		26DC0EB91E95BED900991BDF /* SKRTMAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DC0EB21E95BED900991BDF /* SKRTMAPI.swift */; };
 		26DC0EBA1E95BED900991BDF /* SKRTMAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DC0EB21E95BED900991BDF /* SKRTMAPI.swift */; };
 		26DC0EBB1E95BED900991BDF /* SKRTMAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DC0EB21E95BED900991BDF /* SKRTMAPI.swift */; };
+		4F37D51D9AA48A4DA5021C4C /* Pods_SKRTMAPI_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42971865D4D5330D9065240 /* Pods_SKRTMAPI_tvOS.framework */; };
+		77B781679353C107A3F00D1F /* Pods_SKRTMAPI_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A468EB0E3C948503C6BEFB1C /* Pods_SKRTMAPI_iOS.framework */; };
+		E891C7567D8E2EB964992333 /* Pods_SKRTMAPI_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F28983F77CD35A96810B756 /* Pods_SKRTMAPI_macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0892A7F8305F6029EA756216 /* Pods-SKRTMAPI iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKRTMAPI iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKRTMAPI iOS/Pods-SKRTMAPI iOS.release.xcconfig"; sourceTree = "<group>"; };
+		10AFFD425BC9E4B5322B18FA /* Pods-SKRTMAPI macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKRTMAPI macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKRTMAPI macOS/Pods-SKRTMAPI macOS.release.xcconfig"; sourceTree = "<group>"; };
+		15EEB0EFCAAD72C43B34CE4F /* Pods-SKRTMAPI tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKRTMAPI tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKRTMAPI tvOS/Pods-SKRTMAPI tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1F28983F77CD35A96810B756 /* Pods_SKRTMAPI_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKRTMAPI_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2684F17D1E95AA6900536DCC /* SKRTMAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKRTMAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2684F1E41E95ABD400536DCC /* SKRTMAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKRTMAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2684F2081E95ABD600536DCC /* SKRTMAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKRTMAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,11 @@
 		26DC0EB01E95BED900991BDF /* StarscreamRTM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarscreamRTM.swift; sourceTree = "<group>"; };
 		26DC0EB11E95BED900991BDF /* ZewoRTM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZewoRTM.swift; sourceTree = "<group>"; };
 		26DC0EB21E95BED900991BDF /* SKRTMAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKRTMAPI.swift; sourceTree = "<group>"; };
+		30F1609DAD67CA5E9A20A811 /* Pods-SKRTMAPI iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKRTMAPI iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKRTMAPI iOS/Pods-SKRTMAPI iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		62B2F0D1347E4BA41D8C99FF /* Pods-SKRTMAPI macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKRTMAPI macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKRTMAPI macOS/Pods-SKRTMAPI macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A468EB0E3C948503C6BEFB1C /* Pods_SKRTMAPI_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKRTMAPI_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B52DA2D7BF6414D94C66A57D /* Pods-SKRTMAPI tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKRTMAPI tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKRTMAPI tvOS/Pods-SKRTMAPI tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		D42971865D4D5330D9065240 /* Pods_SKRTMAPI_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKRTMAPI_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 				26D1C4CD1EE4653600C95954 /* SKCore.framework in Frameworks */,
 				26D1C4CE1EE4653600C95954 /* SKWebAPI.framework in Frameworks */,
 				26D1C4CF1EE4653600C95954 /* Starscream.framework in Frameworks */,
+				E891C7567D8E2EB964992333 /* Pods_SKRTMAPI_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +77,7 @@
 				26D1C4D31EE4654800C95954 /* SKCore.framework in Frameworks */,
 				26D1C4D41EE4654800C95954 /* SKWebAPI.framework in Frameworks */,
 				26D1C4D51EE4654800C95954 /* Starscream.framework in Frameworks */,
+				77B781679353C107A3F00D1F /* Pods_SKRTMAPI_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,7 @@
 				26D1C4D91EE4655100C95954 /* SKCore.framework in Frameworks */,
 				26D1C4DA1EE4655100C95954 /* SKWebAPI.framework in Frameworks */,
 				26D1C4DB1EE4655100C95954 /* Starscream.framework in Frameworks */,
+				4F37D51D9AA48A4DA5021C4C /* Pods_SKRTMAPI_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +101,7 @@
 				2684F17F1E95AA6900536DCC /* SKRTMAPI */,
 				2684F17E1E95AA6900536DCC /* Products */,
 				26D1C4C91EE4653500C95954 /* Frameworks */,
+				418C46A30875FA38A0842376 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +145,9 @@
 				26D1C4CA1EE4653600C95954 /* SKCore.framework */,
 				26D1C4CB1EE4653600C95954 /* SKWebAPI.framework */,
 				26D1C4CC1EE4653600C95954 /* Starscream.framework */,
+				A468EB0E3C948503C6BEFB1C /* Pods_SKRTMAPI_iOS.framework */,
+				1F28983F77CD35A96810B756 /* Pods_SKRTMAPI_macOS.framework */,
+				D42971865D4D5330D9065240 /* Pods_SKRTMAPI_tvOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,6 +176,19 @@
 				26DC0EB11E95BED900991BDF /* ZewoRTM.swift */,
 			);
 			path = Conformers;
+			sourceTree = "<group>";
+		};
+		418C46A30875FA38A0842376 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30F1609DAD67CA5E9A20A811 /* Pods-SKRTMAPI iOS.debug.xcconfig */,
+				0892A7F8305F6029EA756216 /* Pods-SKRTMAPI iOS.release.xcconfig */,
+				62B2F0D1347E4BA41D8C99FF /* Pods-SKRTMAPI macOS.debug.xcconfig */,
+				10AFFD425BC9E4B5322B18FA /* Pods-SKRTMAPI macOS.release.xcconfig */,
+				15EEB0EFCAAD72C43B34CE4F /* Pods-SKRTMAPI tvOS.debug.xcconfig */,
+				B52DA2D7BF6414D94C66A57D /* Pods-SKRTMAPI tvOS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,11 +222,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2684F1851E95AA6900536DCC /* Build configuration list for PBXNativeTarget "SKRTMAPI macOS" */;
 			buildPhases = (
+				46784CA4937A07D3BBE88B2F /* [CP] Check Pods Manifest.lock */,
 				2684F1781E95AA6900536DCC /* Sources */,
 				2684F1791E95AA6900536DCC /* Frameworks */,
 				2684F17A1E95AA6900536DCC /* Headers */,
 				2684F17B1E95AA6900536DCC /* Resources */,
 				26A2E6291EEB18D2005C25AC /* SwiftLint */,
+				0CC992071FDD522EA987C38A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,11 +243,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2684F1E11E95ABD400536DCC /* Build configuration list for PBXNativeTarget "SKRTMAPI iOS" */;
 			buildPhases = (
+				93BACC387209757BF24221AD /* [CP] Check Pods Manifest.lock */,
 				2684F1C31E95ABD400536DCC /* Sources */,
 				2684F1DE1E95ABD400536DCC /* Frameworks */,
 				2684F1DF1E95ABD400536DCC /* Headers */,
 				2684F1E01E95ABD400536DCC /* Resources */,
 				2668B5101EEB39A20082DE33 /* SwiftLint */,
+				0CD5ED3E7C3AFFC05F5A18F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,11 +264,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2684F2051E95ABD600536DCC /* Build configuration list for PBXNativeTarget "SKRTMAPI tvOS" */;
 			buildPhases = (
+				F738AC8BFE9C23ADF6775B09 /* [CP] Check Pods Manifest.lock */,
 				2684F1E71E95ABD600536DCC /* Sources */,
 				2684F2021E95ABD600536DCC /* Frameworks */,
 				2684F2031E95ABD600536DCC /* Headers */,
 				2684F2041E95ABD600536DCC /* Resources */,
 				2668B5111EEB39B30082DE33 /* SwiftLint */,
+				152CAC16028E774C0A829B37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -308,6 +346,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0CC992071FDD522EA987C38A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SKRTMAPI macOS/Pods-SKRTMAPI macOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CD5ED3E7C3AFFC05F5A18F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SKRTMAPI iOS/Pods-SKRTMAPI iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		152CAC16028E774C0A829B37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SKRTMAPI tvOS/Pods-SKRTMAPI tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2668B5101EEB39A20082DE33 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,6 +432,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		46784CA4937A07D3BBE88B2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93BACC387209757BF24221AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F738AC8BFE9C23ADF6775B09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -486,6 +614,7 @@
 		};
 		2684F1861E95AA6900536DCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B2F0D1347E4BA41D8C99FF /* Pods-SKRTMAPI macOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -513,6 +642,7 @@
 		};
 		2684F1871E95AA6900536DCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10AFFD425BC9E4B5322B18FA /* Pods-SKRTMAPI macOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -540,6 +670,7 @@
 		};
 		2684F1E21E95ABD400536DCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F1609DAD67CA5E9A20A811 /* Pods-SKRTMAPI iOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -567,6 +698,7 @@
 		};
 		2684F1E31E95ABD400536DCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0892A7F8305F6029EA756216 /* Pods-SKRTMAPI iOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -594,6 +726,7 @@
 		};
 		2684F2061E95ABD600536DCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15EEB0EFCAAD72C43B34CE4F /* Pods-SKRTMAPI tvOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -621,6 +754,7 @@
 		};
 		2684F2071E95ABD600536DCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52DA2D7BF6414D94C66A57D /* Pods-SKRTMAPI tvOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
